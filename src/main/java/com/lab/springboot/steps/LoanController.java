@@ -12,6 +12,6 @@ public class LoanController {
     @GetMapping("/loan")
     public List<Loan> getAllLoanTypes()
     {
-        return Arrays.asList(new Loan(1,"Ganesh","Education"));
+        return Arrays.asList(new Loan(1,"Ganesha,Shiva","Education"));
     }
 }
